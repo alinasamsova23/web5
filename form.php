@@ -57,7 +57,7 @@
       <div class="form-group">
       <textarea name="bio" class="form-control <?php if($errors['bio']){echo 'border border-danger';} ?>"><?php echo $values['bio']; ?></textarea>
       <br>
-      <div class="form-check"
+      <div class="form-check">
       <label for="agreed" class="form-check-label">
         <input type="checkbox" name="agreed" id="agreed" class="form-check-input" required>
         с контрактом ознакомлен
